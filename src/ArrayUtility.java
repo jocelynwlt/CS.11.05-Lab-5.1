@@ -4,7 +4,11 @@ import java.util.Arrays;
 public class ArrayUtility {
 
     public static void print(int[] array) {
-        System.out.print(Arrays.toString(array));
+         String output = "";
+        for (int i: array){
+            output += i;
+        }
+        System.out.print(output);
     }
 
     public static int sum(int[] array) {
